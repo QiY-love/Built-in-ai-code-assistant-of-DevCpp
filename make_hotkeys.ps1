@@ -18,5 +18,5 @@ function New-CcodeShortcut {
     Write-Output ("created: {0}  [{1}]" -f $path, $Hotkey)
 }
 
-New-CcodeShortcut -FileName 'ccode-gen.lnk' -ArgLine 'gen' -Hotkey 'CTRL+ALT+I' -Desc 'ccode: AI 生成 C 代码'
+New-CcodeShortcut -FileName 'ccode-gen.lnk' -ArgLine 'gen' -Hotkey 'CTRL+I' -Desc 'ccode: AI 生成 C 代码'
 New-CcodeShortcut -FileName 'ccode-complete.lnk' -ArgLine 'complete' -Hotkey 'CTRL+ALT+K' -Desc 'ccode: AI 补全 C 代码'

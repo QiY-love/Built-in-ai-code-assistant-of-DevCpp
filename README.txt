@@ -60,7 +60,7 @@
      powershell -ExecutionPolicy Bypass -File make_hotkeys.ps1
 
      会在开始菜单 Programs 下创建两个带全局热键的快捷方式：
-         Ctrl+Alt+I   生成
+         Ctrl+I       生成
          Ctrl+Alt+K   补全
      想换热键：右键这两个快捷方式 -> 属性 -> 快捷键。
 
@@ -71,7 +71,8 @@
      再重复一次，换成 ccode-complete.cmd
 
      还可以在 工具(T) -> 快捷键选项 里给它绑快捷键（Dev-C++ 本身支持给外部
-     程序绑快捷键，绑成 Ctrl+I 就是原生的 Ctrl+I 体验）。
+     程序绑快捷键）。注意：全局热键优先级更高，别再绑成 Ctrl+I，
+     否则按键会被系统级热键先拦下。
 
   第 5 步  灌入本地片段库（可选）
      python add_snippets.py
@@ -88,7 +89,7 @@
 
   4.1  全局热键（最顺手）
 
-     Ctrl+Alt+I   在输入框写需求，例如：
+     Ctrl+I       在输入框写需求，例如：
                      写个学生成绩管理系统，用结构体数组，能增删改查
                   -> Ctrl+Enter 生成
                   -> 预览窗里 Ctrl+Enter 插入到 Dev-C++ / Esc 丢弃
