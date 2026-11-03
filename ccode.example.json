@@ -1,0 +1,10 @@
+{
+  "api_key": "",
+  "base_url": "https://api.deepseek.com/v1",
+  "model": "deepseek-chat",
+  "temperature": 0.2,
+  "max_tokens": 2048,
+  "timeout": 120,
+  "devcpp_exe": "",
+  "context_chars": 4000
+}

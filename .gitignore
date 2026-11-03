@@ -1,0 +1,13 @@
+# 你的 API key 存在这个文件里，绝对不要提交
+ccode.json
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 编辑器/系统杂物
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.log
